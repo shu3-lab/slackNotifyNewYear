@@ -18,7 +18,6 @@ def post_slack():
     message = "<!channel> *Happy new year 2020!*"
 
     send_data = {
-        "username": "SUZUKIKE_BOT",
         "icon_emoji": ":laughing:",
         "text": message
     }
